@@ -16,11 +16,14 @@ Randomized mouse movements within a 500x500 pixel range.
 Logs each movement with time and coordinates.
 Safe to use with a built-in mechanism to stop the script with user interruption.
 
+
+
 Requirements
 
 Python 3.10
 
 PyAutoGUI
+
 
 
 This script depends on PyAutoGUI, a cross-platform GUI automation Python module. 
@@ -29,10 +32,14 @@ interactions with other applications.
 
 
 Installing Dependencies
+
+
 Ensure you have Python 3.10 installed, then install PyAutoGUI using pip:
 
 
 pip3 install pyautogui
+
+
 
 Usage
 
@@ -45,6 +52,7 @@ python3 move.py
 
 
 Safety Feature
+
 
 
 The script includes a failsafe feature. Quickly moving the mouse to

@@ -49,6 +49,3 @@ Safety Feature
 
 The script includes a failsafe feature. Quickly moving the mouse to
 any corner of the screen will stop the script immediately.
-This README provides a clear overview of your script, its features, 
-how to set it up, and how to use it.
-Adjust the license section based on your preference or omit it if not applicable.

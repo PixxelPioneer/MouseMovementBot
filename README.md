@@ -56,4 +56,4 @@ Safety Feature
 
 
 The script includes a failsafe feature. Quickly moving the mouse to
-any corner of the screen will stop the script immediately.
+the Upper-Left-Corner will stop the script immediately.

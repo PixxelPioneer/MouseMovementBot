@@ -10,11 +10,11 @@ try:
         
 
         localtime = time.localtime()  # Capture local time for Logging
-        result = time.strftime("%I:%M:%S %p", localtime)  # Format the time
+        result = time.strftime("%I:%M:%S %p", localtime)  # Format the Time
 
         print('Moved at ' + str(result) + ' (' + str(x) + ', ' + str(y) + ')')  # Print "Moved at" "TIME" "(X,Y)"
         time.sleep(1.4)  # Time to sleep, until next reply
 
-except pyautogui.FailSafeException:
-    print("Exit --> Process was interrupted by the User")
+except pyautogui.FailSafeException:  #IMPORTANT Safety Feature for canceling the Loop,trigger's on Left-Upper-Corner !
+    print("Exit --> Process was interrupted by the User")  #Print the Exit-Message
     

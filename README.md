@@ -36,7 +36,7 @@ pip3 install pyautogui
 
 Usage
 
-To run the script, navigate to the directory containing mouse_movement.py and run the
+To run the script, navigate to the directory containing move.py and run the
 following command in your terminal:
 
 
